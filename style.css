@@ -172,3 +172,5 @@ footer img{width:auto}
 .card.ph{border:1px solid #C9CCD1;background:#fff}.card.ph h3{font-size:22px}.card.ph p{color:#4F5257}
 .areaside{background:#fff;border:1px solid #C9CCD1;padding:36px}
 @media(max-width:900px){.team{grid-template-columns:repeat(2,1fr)}}
+.qgrid{display:block;columns:3;column-gap:40px}.qgrid figure{break-inside:avoid;margin:0 0 44px}
+@media(max-width:900px){.qgrid{columns:1}}
