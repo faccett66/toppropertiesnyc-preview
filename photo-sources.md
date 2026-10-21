@@ -5,5 +5,4 @@
 - sheepshead-bay-generic.jpg — Pexels 31661836, Brooklyn brownstone street (GENERIC) https://www.pexels.com/photo/charming-brooklyn-brownstone-street-in-summer-31661836/
 - bensonhurst-generic.jpg — Pexels 31691088, Brooklyn street scene (GENERIC) https://www.pexels.com/photo/vibrant-urban-scene-in-brooklyn-new-york-31691088/
 - dyker-heights-generic.jpg — Pexels 31376756, suburban home (GENERIC, not NYC-verified) https://www.pexels.com/photo/charming-suburban-home-with-green-lawn-and-driveway-31376756/
-- listing-placeholder.jpg — Pexels 5178060, brick house (PLACEHOLDER, not the actual listing) https://www.pexels.com/photo/brown-brick-house-5178060/
 - logo.png — your screenshot, used unchanged. qr.png — the real app QR captured from the live site footer canvas, turned black-and-white with a white margin added.
