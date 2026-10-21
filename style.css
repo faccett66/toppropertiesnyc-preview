@@ -151,3 +151,14 @@ header.sc{background:rgba(233,234,236,.97);border-bottom:1px solid #C9CCD1}
 @media(max-width:900px){body{padding-bottom:52px}.fab{left:0;right:0;bottom:0;gap:0;display:grid;grid-template-columns:1fr 1fr}
 .fab a{text-align:center;padding:14px 0;font-size:14px;border:0;border-top:1px solid #333}.fab .call{border-right:1px solid #333}
 .preview{bottom:60px;left:8px}}
+.nav{height:96px}.nav img{height:65px;width:auto}header.sc .nav{height:70px}header.sc .nav img{height:50px}
+header:not(.sc) .nav img{filter:drop-shadow(0 2px 8px rgba(0,0,0,.45))}
+footer img{width:auto}
+.hero{padding-top:96px}
+.hero h1{-webkit-text-stroke:.6px rgba(0,0,0,.55);text-shadow:0 1px 0 rgba(0,0,0,.6),0 4px 18px rgba(0,0,0,.45)}
+.tile h3{text-shadow:0 1px 0 rgba(0,0,0,.6),0 3px 12px rgba(0,0,0,.5)}
+.head h2,section > .wrap > h2,.split h2{text-shadow:0 1px 0 rgba(255,255,255,.85),0 -1px 0 rgba(0,0,0,.12)}
+.band h2,.fcta h2{text-shadow:0 1px 0 rgba(0,0,0,.8),0 0 1px rgba(255,255,255,.25)}
+.trust b{text-shadow:0 1px 0 rgba(255,255,255,.8)}
+@media(max-width:900px){.nav{height:76px}.nav img{height:50px}header.sc .nav{height:62px}header.sc .nav img{height:44px}.menu{top:76px}header.sc .menu{top:62px}.hero{padding-top:76px}.hero h1{-webkit-text-stroke:.4px rgba(0,0,0,.5)}}
+@media(max-width:900px){body{padding-bottom:70px}.preview{left:0;right:0;bottom:48px;text-align:center;font-size:9px;padding:3px 0;border:0;border-top:1px solid #333}}
