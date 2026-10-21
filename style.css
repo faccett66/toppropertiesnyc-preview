@@ -138,3 +138,16 @@ header.sc{background:#fff;border-bottom:1px solid #E5E5E5}header.sc .nav{height:
 @media(max-width:900px){.hero:not(.small) h1{font-size:46px}.tiles{grid-template-columns:1fr;grid-auto-rows:240px}.tile:nth-child(1),.tile:nth-child(6){grid-column:auto}.tile img{filter:none}
 .qgrid{grid-template-columns:1fr;gap:28px}.menu a,header:not(.sc) .menu.open a{color:#0B0B0B}.fcta h2{font-size:26px}.chips{grid-template-columns:1fr}.hero{padding-top:64px}}
 @media(prefers-reduced-motion:reduce){.kb,.hero .wrap>*,.st.on{animation:none}.rv{opacity:1;transform:none}}
+:root{--muted:#4F5257}
+body{background:#E9EAEC}
+.trust,.feat,.app,.quotes{background:linear-gradient(180deg,#DFE1E4,#D8DADE)}
+.trust,.app,.quotes,header.sc{border-color:#C9CCD1}
+header.sc{background:rgba(233,234,236,.97);border-bottom:1px solid #C9CCD1}
+.card,.vform,.stat,.ag .av{background:#fff}.card,.stat,.vform,.app img{border-color:#C9CCD1}
+.av{border-color:#C9CCD1}.meta{border-color:#DCDEE1}
+.eyebrow,.trust span,.note,.ag span,.quotes figcaption{color:#4F5257}
+.btn.ghost{background:transparent}.btn.ghost:hover{background:#0B0B0B}
+.toast{background:#E9EAEC}
+@media(max-width:900px){body{padding-bottom:52px}.fab{left:0;right:0;bottom:0;gap:0;display:grid;grid-template-columns:1fr 1fr}
+.fab a{text-align:center;padding:14px 0;font-size:14px;border:0;border-top:1px solid #333}.fab .call{border-right:1px solid #333}
+.preview{bottom:60px;left:8px}}
