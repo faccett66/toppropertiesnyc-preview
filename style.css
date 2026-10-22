@@ -291,3 +291,9 @@ dd a.fem{margin-top:12px}
 .emcard textarea{min-height:140px}.emcard textarea::placeholder{color:#7d8085}
 .emcard .emsend{min-height:56px;font-size:14px}
 @media(max-width:600px){.emcard input,.emcard textarea{font-size:17px;padding:14px 16px}.emcard .emsend{min-height:60px}.emx{width:52px;height:52px;font-size:34px}}
+
+/* contact: plain values, buttons under each */
+.cval{user-select:all}
+dd a.btn.light{display:inline-flex;align-items:center;justify-content:center;min-width:170px;min-height:50px;padding:0 26px;box-sizing:border-box;background:#000!important;color:#F2F2F0!important;border:1px solid #C9CCD1!important;border-radius:2px;letter-spacing:.14em;text-transform:uppercase;font-size:13px;text-decoration:none;box-shadow:none!important;margin-top:12px}
+dd a.btn.light:hover{background:#F2F2F0!important;color:#000!important}
+@media(max-width:700px){dd a.btn.light{width:100%;margin-top:10px}}
