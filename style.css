@@ -201,3 +201,5 @@ body{background:var(--platinum);background-color:#E9EAEC;background-attachment:f
 .trust,.feat,.app{background:repeating-linear-gradient(90deg,rgba(255,255,255,.18) 0 1px,transparent 1px 3px),linear-gradient(180deg,#E3E5E8,#D9DBDF);background-color:#DCDEE1}
 :root{--platinum:repeating-linear-gradient(90deg,rgba(255,255,255,.55) 0 1px,rgba(120,124,130,.07) 1px 2px,transparent 2px 3px,rgba(255,255,255,.25) 3px 4px,transparent 4px 6px),linear-gradient(120deg,rgba(255,255,255,0) 10%,rgba(255,255,255,.7) 38%,rgba(255,255,255,0) 60%),linear-gradient(180deg,#F1F2F4 0%,#E0E2E6 50%,#ECEDEF 100%)}
 .trust,.feat,.app{background:repeating-linear-gradient(90deg,rgba(255,255,255,.5) 0 1px,rgba(120,124,130,.08) 1px 2px,transparent 2px 4px),linear-gradient(180deg,#E3E5E8,#D9DBDF);background-color:#DCDEE1}
+body{background:linear-gradient(120deg,rgba(255,255,255,0) 10%,rgba(255,255,255,.35) 38%,rgba(255,255,255,0) 60%),url(img/platinum.webp);background-color:#E9EAEC;background-attachment:fixed,scroll}
+.trust,.feat,.app{background:linear-gradient(180deg,rgba(255,255,255,.12),rgba(0,0,0,.02)),url(img/platinum-d.webp);background-color:#DCDEE1}
