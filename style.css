@@ -250,3 +250,6 @@ footer .legal{border-top:1px solid rgba(229,228,226,.12)!important;margin-top:56
 footer .fbtns .btn{flex:1 1 100%;max-width:340px}footer .farchw{margin-top:8px;opacity:.5}
 footer .cols{grid-template-columns:1fr!important;padding-top:36px}footer .cols>div{padding:0 0 28px!important}footer .cols>div+div{border-left:0!important;border-top:1px solid rgba(229,228,226,.14);padding-top:28px!important}}
 @media(max-width:900px){footer .farchw{overflow:hidden}footer .farch{width:200%!important;max-width:none!important;margin-left:-50%}}
+
+/* platinum ring on Thomas portrait */
+.meet-in img{border:3px solid #E5E4E2!important;box-shadow:0 0 0 6px #fff,0 0 0 7px #A9ACB0,0 10px 30px rgba(0,0,0,.18)}
