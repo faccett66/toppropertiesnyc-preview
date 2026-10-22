@@ -122,7 +122,7 @@ header:not(.sc) .menu a{color:#fff}header:not(.sc) .burger{color:#fff}
 header.sc{background:#fff;border-bottom:1px solid #E5E5E5}header.sc .nav{height:64px}header.sc .nav img{height:40px}
 .hero{overflow:hidden;background:#111;padding-top:84px}.kb{position:absolute;inset:-4%;background:center/cover no-repeat;animation:kb 28s ease-in-out infinite alternate}
 @keyframes kb{from{transform:scale(1) translate(0,0)}to{transform:scale(1.1) translate(-2%,-1%)}}
-.hero:before{z-index:1;background:linear-gradient(180deg,rgba(0,0,0,.55) 0,rgba(0,0,0,0) 160px),linear-gradient(90deg,rgba(0,0,0,.66) 0%,rgba(0,0,0,.5) 55%,rgba(0,0,0,.3) 100%)}.hero .wrap{z-index:2}
+.hero:before{z-index:1;background:linear-gradient(180deg,rgba(0,0,0,.45) 0,rgba(0,0,0,0) 140px),linear-gradient(90deg,rgba(0,0,0,.5) 0%,rgba(0,0,0,.22) 50%,rgba(0,0,0,0) 100%)}.hero .wrap{z-index:2}
 .hero:not(.small) h1{font-size:84px;line-height:.98;letter-spacing:-.02em;max-width:820px;margin-bottom:24px}
 .hero .wrap>*{animation:up .9s cubic-bezier(.2,.7,.2,1) both}.hero .wrap>*:nth-child(2){animation-delay:.12s}.hero .wrap>*:nth-child(3){animation-delay:.26s}.hero .wrap>*:nth-child(4){animation-delay:.4s}
 @keyframes up{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
@@ -205,7 +205,7 @@ body{background:linear-gradient(120deg,rgba(255,255,255,0) 10%,rgba(255,255,255,
 .trust,.feat,.app{background:linear-gradient(180deg,rgba(255,255,255,.12),rgba(0,0,0,.02)),url(img/platinum-d.webp?v=2);background-color:#DCDEE1}
 
 .tile img,.tile:hover img,.av img,.ag:hover .av img,.portrait img,.meet-in img,.meet-in img:hover{filter:none!important}
-@media(max-width:900px){.hero:before{background:linear-gradient(180deg,rgba(0,0,0,.55) 0,rgba(0,0,0,.62) 45%,rgba(0,0,0,.35) 100%)!important}.hero h1{color:#fff!important}}
+@media(max-width:900px){.hero:before{background:linear-gradient(180deg,rgba(0,0,0,.48) 0,rgba(0,0,0,.44) 55%,rgba(0,0,0,.16) 100%)!important}.hero h1{color:#fff!important}}
 .hero .kb{background-position:28% 62%!important}
 
 .menu a{font-family:"Playfair Display",Georgia,serif!important;font-size:17px!important;font-weight:600!important;letter-spacing:.02em!important;text-transform:none!important}
@@ -254,3 +254,40 @@ footer .cols{grid-template-columns:1fr!important;padding-top:36px}footer .cols>d
 /* platinum ring on Thomas portrait */
 .meet-in img{border:3px solid #E5E4E2!important;box-shadow:0 0 0 6px #fff,0 0 0 7px #A9ACB0,0 10px 30px rgba(0,0,0,.18)}
 .portrait img{border:3px solid #E5E4E2!important;box-shadow:0 0 0 6px #fff,0 0 0 7px #A9ACB0,0 10px 30px rgba(0,0,0,.18)}
+
+/* perf: lighter hero files on phones, same size/position (Oct 22) */
+@media(max-width:700px){.kb[style*="--bgm"]{background-image:var(--bgm)!important}}
+
+/* Bay Ridge: frame people by the water */
+.hero .kb[style*="bay-ridge"]{background-position:50% 67%!important}
+img[src*="bay-ridge-sm"]{object-position:50% 74%}
+
+/* HD heroes: lighter overlay, so give hero text its own soft shadow for legibility (Oct 22) */
+.hero h1{text-shadow:0 1px 2px rgba(0,0,0,.55),0 2px 22px rgba(0,0,0,.55),0 0 60px rgba(0,0,0,.35)!important}
+.hero p,.hero .eyebrow{text-shadow:0 1px 2px rgba(0,0,0,.65),0 0 18px rgba(0,0,0,.55)}
+
+/* footer Email Thomas modal (Oct 22) */
+html.emo{overflow:hidden}
+.emodal{position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.72);display:flex;align-items:center;justify-content:center;padding:24px;backdrop-filter:blur(2px)}
+.emodal[hidden]{display:none}
+.emcard{position:relative;width:100%;max-width:520px;max-height:calc(100vh - 48px);overflow:auto;background:radial-gradient(80% 50% at 50% 0%,rgba(255,236,204,.06),rgba(0,0,0,0) 70%),#000;border:1px solid rgba(229,228,226,.35);box-shadow:0 0 0 1px rgba(0,0,0,.9),0 24px 80px rgba(0,0,0,.6);padding:44px 40px 32px;color:#D8D6D2;border-radius:2px}
+.emcard:before{content:'';position:absolute;left:0;right:0;top:0;height:2px;background:linear-gradient(90deg,rgba(229,228,226,0),#A9ACB0 15%,#F2F2F0 50%,#A9ACB0 85%,rgba(229,228,226,0))}
+.emcard .fey{font:600 11px/1 Montserrat,sans-serif;letter-spacing:.32em;text-transform:uppercase;color:#C9CCD1;margin:0 0 14px;text-align:center}
+.emcard h2{font-family:"Playfair Display",Georgia,serif;color:#F7F3EC;font-size:32px;text-align:center;margin:0 0 26px}
+.emcard label{display:block;font:600 11px/1.4 Montserrat,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#C9CCD1;margin-bottom:16px}
+.emcard label span{letter-spacing:.05em;text-transform:none;font-weight:400;color:#8F9296}
+.emcard input,.emcard textarea{display:block;width:100%;box-sizing:border-box;margin-top:8px;background:#0b0b0b;border:1px solid rgba(229,228,226,.28);color:#F2F0EC;font:16px/1.5 Montserrat,sans-serif;padding:12px 14px;border-radius:2px;letter-spacing:0;text-transform:none}
+.emcard input:focus,.emcard textarea:focus{outline:none;border-color:#E5E4E2;box-shadow:0 0 0 3px rgba(229,228,226,.15)}
+.emcard .btn{width:100%;min-height:50px;margin-top:6px;letter-spacing:.14em;text-transform:uppercase;font-size:13px;background:#F2F0EC!important;color:#000!important;border:1px solid #F2F0EC!important;cursor:pointer;border-radius:2px}
+.emx{position:absolute;top:10px;right:12px;width:44px;height:44px;background:none;border:0;color:#E5E4E2;font-size:30px;line-height:1;cursor:pointer}
+.emx:hover,.emx:focus-visible{color:#fff;outline:1px solid rgba(229,228,226,.4)}
+.emalt{text-align:center;font-size:13px;margin:18px 0 0;color:#A9ACB0}.emalt a{color:#E5E4E2;text-decoration:underline}
+@media(max-width:600px){.emodal{padding:0;align-items:stretch}.emcard{max-width:none;max-height:none;min-height:100%;border-left:0;border-right:0;padding:56px 22px 28px}.emcard h2{font-size:28px}}
+
+/* one shared Email Thomas button style (footer + contact) */
+a.btn.light.fem{display:inline-flex;align-items:center;justify-content:center;min-width:170px;min-height:50px;padding:0 26px;box-sizing:border-box;background:#000!important;color:#F2F2F0!important;border:1px solid #C9CCD1!important;border-radius:2px;letter-spacing:.14em;text-transform:uppercase;font-size:13px;text-decoration:none;box-shadow:none!important}
+a.btn.light.fem:hover{background:#F2F2F0!important;color:#000!important}
+dd a.fem{margin-top:12px}
+.emcard textarea{min-height:140px}.emcard textarea::placeholder{color:#7d8085}
+.emcard .emsend{min-height:56px;font-size:14px}
+@media(max-width:600px){.emcard input,.emcard textarea{font-size:17px;padding:14px 16px}.emcard .emsend{min-height:60px}.emx{width:52px;height:52px;font-size:34px}}
