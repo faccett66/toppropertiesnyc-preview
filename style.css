@@ -253,3 +253,4 @@ footer .cols{grid-template-columns:1fr!important;padding-top:36px}footer .cols>d
 
 /* platinum ring on Thomas portrait */
 .meet-in img{border:3px solid #E5E4E2!important;box-shadow:0 0 0 6px #fff,0 0 0 7px #A9ACB0,0 10px 30px rgba(0,0,0,.18)}
+.portrait img{border:3px solid #E5E4E2!important;box-shadow:0 0 0 6px #fff,0 0 0 7px #A9ACB0,0 10px 30px rgba(0,0,0,.18)}
