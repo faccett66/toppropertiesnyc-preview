@@ -297,3 +297,4 @@ dd a.fem{margin-top:12px}
 dd a.btn.light{display:inline-flex;align-items:center;justify-content:center;min-width:170px;min-height:50px;padding:0 26px;box-sizing:border-box;background:#000!important;color:#F2F2F0!important;border:1px solid #C9CCD1!important;border-radius:2px;letter-spacing:.14em;text-transform:uppercase;font-size:13px;text-decoration:none;box-shadow:none!important;margin-top:12px}
 dd a.btn.light:hover{background:#F2F2F0!important;color:#000!important}
 @media(max-width:700px){dd a.btn.light{width:100%;margin-top:10px}}
+.fhn{margin-top:14px;font-size:13px}.fhn a{color:#E5E4E2;text-decoration:underline;text-shadow:0 1px 4px rgba(0,0,0,.6)}
