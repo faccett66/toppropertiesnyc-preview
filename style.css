@@ -196,3 +196,6 @@ section.alt{background:linear-gradient(180deg,#DFE1E4,#D8DADE);border-top:1px so
 
 .meet{padding:56px 0}.meet-in{display:grid;grid-template-columns:220px 1fr;gap:44px;align-items:center;max-width:900px;margin:0 auto}.meet-in img{width:220px;height:220px;object-fit:cover;filter:grayscale(1);border:1px solid #C9CCD1;border-radius:50%}.meet h2{margin:6px 0 4px}.meet .mt{color:var(--muted);font-size:.95rem;margin:0 0 14px}@media(max-width:700px){.meet-in{grid-template-columns:1fr;gap:22px;text-align:center}.meet-in img{width:180px;height:180px;margin:0 auto}}
 .meet-in img{transition:filter .5s ease}.meet-in img:hover{filter:grayscale(0)}
+:root{--platinum:repeating-linear-gradient(90deg,rgba(255,255,255,.22) 0 1px,rgba(0,0,0,.018) 1px 2px,transparent 2px 4px),linear-gradient(120deg,rgba(255,255,255,0) 15%,rgba(255,255,255,.55) 40%,rgba(255,255,255,0) 62%),linear-gradient(180deg,#EEEFF1 0%,#E2E4E7 50%,#E9EAEC 100%)}
+body{background:var(--platinum);background-color:#E9EAEC;background-attachment:fixed}
+.trust,.feat,.app{background:repeating-linear-gradient(90deg,rgba(255,255,255,.18) 0 1px,transparent 1px 3px),linear-gradient(180deg,#E3E5E8,#D9DBDF);background-color:#DCDEE1}
