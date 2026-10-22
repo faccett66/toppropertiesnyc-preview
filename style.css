@@ -187,7 +187,7 @@ section.alt{background:linear-gradient(180deg,#DFE1E4,#D8DADE);border-top:1px so
 .btn+.btn{margin-left:8px}
 @media(max-width:900px){.hls{grid-template-columns:1fr 1fr}.pq blockquote{font-size:19px}.talk h2{font-size:30px}.btn+.btn{margin:10px 0 0}.map iframe{height:300px}}
 @media(max-width:520px){.hls{grid-template-columns:1fr}}
-.dby{float:right}.dby a{color:#8C8C8C}.dby a:hover{color:#fff}@media(max-width:900px){.dby{float:none;display:block;margin-top:10px}}
+.dby{margin-top:40px;text-align:right;font-size:12px}.dby a{color:#8C8C8C}.dby a:hover{color:#fff}.dby+.legal{margin-top:14px}@media(max-width:900px){.dby{text-align:left}}
 .lcard{text-decoration:none;color:inherit;display:block}.lcard .src{font-size:11px;color:#4F5257;margin-top:10px}
 /* steel finish for dark areas (subtle brushed gunmetal, echoing logo) */
 :root{--steel:repeating-linear-gradient(90deg,rgba(255,255,255,.018) 0 1px,transparent 1px 3px),linear-gradient(115deg,rgba(255,255,255,0) 20%,rgba(255,255,255,.06) 45%,rgba(255,255,255,0) 70%),linear-gradient(180deg,#24272b 0%,#15171a 55%,#0e0f11 100%)}
