@@ -189,3 +189,7 @@ section.alt{background:linear-gradient(180deg,#DFE1E4,#D8DADE);border-top:1px so
 @media(max-width:520px){.hls{grid-template-columns:1fr}}
 .dby{float:right}.dby a{color:#8C8C8C}.dby a:hover{color:#fff}@media(max-width:900px){.dby{float:none;display:block;margin-top:10px}}
 .lcard{text-decoration:none;color:inherit;display:block}.lcard .src{font-size:11px;color:#4F5257;margin-top:10px}
+/* steel finish for dark areas (subtle brushed gunmetal, echoing logo) */
+:root{--steel:repeating-linear-gradient(90deg,rgba(255,255,255,.018) 0 1px,transparent 1px 3px),linear-gradient(115deg,rgba(255,255,255,0) 20%,rgba(255,255,255,.06) 45%,rgba(255,255,255,0) 70%),linear-gradient(180deg,#24272b 0%,#15171a 55%,#0e0f11 100%)}
+.band,.talk,footer,.preview{background:var(--steel);background-color:#141618}
+.btn:not(:hover):not(.ghost):not(.light),.btn.brass:not(:hover),.fab a:not(:hover),.ag:hover .av,.chips button:hover,.btn.ghost:hover,.arrows button:hover{background:var(--steel);background-color:#141618;box-shadow:inset 0 1px 0 rgba(255,255,255,.12)}
